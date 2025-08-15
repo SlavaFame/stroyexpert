@@ -1,0 +1,91 @@
+$blue: #2b7de0
+$dark: #333
+$grey-bg: #f8f9fb
+$grey-font: #999
+    
+html
+    font-family: sans-serif
+    font-size: 10px
+
+body
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif
+    font-size: 1.4rem
+    line-height: 1.428571429
+    color: $dark
+    margin: 0
+    padding: 0
+
+header
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .136)
+
+footer
+    margin-top: 4rem
+    background-color: $grey-bg
+
+.footer
+    &-row
+        display: flex
+        flex-direction: column
+        gap: 1rem
+        padding-bottom: 4rem
+
+    &-link
+        text-decoration: none
+        color: $dark
+        width: fit-content
+        
+        &:hover
+            color: $grey-font
+
+.menu
+    display: flex
+    flex-wrap: wrap
+    gap: 4.4rem
+
+    &-item
+        list-style-type: none
+
+    &-link
+        text-decoration: none
+        color: $dark
+        font-weight: 700
+        
+        &:hover
+            color: $grey-font
+
+    &-row
+        font-size: 1.5rem
+        line-height: 1.8rem
+        font-weight: 400
+        color: $dark
+        text-transform: uppercase
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+
+.logo
+    height: 8.7rem
+    line-height: 8.7rem
+
+    a
+        height: fit-content
+        display: block
+
+    img
+        max-width: 100%
+        vertical-align: middle
+        margin-bottom: 1rem
+
+.phone
+    color: $dark
+    font-weight: 500
+    font-size: 1.2rem
+
+    a
+        color: $dark
+        font-size: 1.6rem
+        font-weight: 700
+        text-decoration: none
+
+        &:hover
+            color: $grey-font
